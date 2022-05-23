@@ -1,0 +1,22 @@
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  gap: 5px;
+}
+
+.title-container span {
+  font-size: 2.5em;
+  font-family: 'Cinzel Decorative', cursive;
+  color: rgb(34, 34, 34);
+}
+
+span strong {
+  font-family: 'Cinzel Decorative', cursive;
+  color: rgb(232, 243, 255);
+}
+
+.title-container img {
+  width: 40px;
+}

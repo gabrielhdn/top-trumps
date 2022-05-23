@@ -1,0 +1,97 @@
+.card-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.mini-card {
+  align-items: center;
+  background-color: rgb(243,243,243);
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px 0px rgba(175, 175, 175, 0.50);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 21em;
+  justify-content: space-between;
+  padding: 3px 3px 8px 3px;
+  transition: all 0.3s;
+  width: 15em;
+}
+
+.mini-card:hover {
+  transform: translateY(-10px);
+}
+
+.mini-img-div {
+  width: 100%;
+  height: 140px;
+  padding: 3px;
+}
+
+.mini-image-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.mini-name-card {
+  font-size: 0.95em;
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+}
+
+.mini-description-card {
+  font-size: 0.7em;
+  max-width: 80%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.mini-att-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.mini-attributes {
+  font-size: 0.8em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.mini-trunfo-div {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-rare-card {
+  font-size: 0.8em;
+}
+
+.mini-trunfo-card {
+  font-size: 0.7em;
+  color: rgb(185, 183, 31);
+  border: 1px solid rgb(185, 183, 31);
+  padding: 2px;
+}
+
+.remove-button {
+  background-color: rgba(168, 166, 32, 0.9);
+  border: none;
+  border-radius: 4px;
+  color: rgb(243, 243, 243);
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 15px;
+  outline: none;
+  padding: 2px 4px;
+}

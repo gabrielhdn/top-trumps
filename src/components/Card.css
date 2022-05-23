@@ -1,0 +1,84 @@
+.preview {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+
+.preview-section {
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+  /* background-image: url('../images/fundoCarta.png'); */
+  /* background-size: 19em 28em; */
+  box-shadow: 7px 8px 6px 0px rgba(175, 175, 175, 0.39);
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 28em;
+  justify-content: space-between;
+  padding: 3px 3px 12px 3px;
+  position: relative;
+  width: 19em;
+}
+
+/* .cover {
+  height: 105%;
+  width: 105%;
+  background-image: url('../images/fundoCarta.png');
+  background-size: 100% 100%;
+  position: absolute;
+  top: -9px;
+  left: -6px;
+} */
+
+.img-div {
+  width: 100%;
+  height: 190px;
+  padding: 5px;
+}
+
+.img-div img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.name-card {
+  font-size: 1.1em;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.description-card {
+  font-size: 0.80em;
+  max-width: 80%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.att-div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.attributes {
+  font-size: 0.9em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.rare-card {
+  font-size: 0.9em;
+}
+
+.trunfo-card {
+  color: rgb(185, 183, 31);
+  border: 1px solid rgb(185, 183, 31);
+  padding: 2.5px;
+}

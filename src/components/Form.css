@@ -1,0 +1,99 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  border: 2px solid;
+  border-image: linear-gradient(to bottom, rgba(247,247,247,1) 0%, rgba(252,204,77,1) 0%, rgb(124, 172, 255) 100%) 1 1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.form-label {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: rgb(29, 29, 29);
+  justify-content: center;
+}
+
+.form-label p {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 40%;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  height: 25px;
+  padding-left: 4px;
+}
+
+input:hover {
+  border: 2px solid rgb(199, 226, 255);
+}
+
+.select-input {
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+  padding: 2px;
+  background-color: white;
+  color: rgb(34, 34, 34);
+}
+
+.checkbox-input {
+  border: none;
+  border-radius: 0;
+  height: auto;
+}
+
+.image-input {
+  width: 45%;
+}
+
+.description-input {
+  height: 80px;
+  margin-bottom: 10px;
+  padding-left: 4px;
+  padding-right: 2px;
+  resize: none;
+  width: 225px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.description-input:hover {
+  border: 1.5px solid rgb(199, 226, 255);
+}
+
+.save-button {
+  margin: 0 auto;
+  width: 15%;
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+  font-weight: 600;
+  font-size: 0.9em;
+  background-color: rgb(181, 181, 226);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.save-button:enabled:hover {
+  background-color: rgb(46, 46, 46);
+  color: rgb(196, 196, 255);
+}
+
+.save-button:disabled {
+  background-color: rgb(199, 199, 199);
+  color: rgb(133, 133, 133);
+  cursor: auto;
+}
+
+input, select {
+  margin-bottom: 10px;
+}

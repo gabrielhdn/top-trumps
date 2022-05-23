@@ -1,0 +1,18 @@
+.footer {
+  margin-bottom: 15px;
+}
+
+.footer p {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+a {
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(51, 156, 156);
+}
+
+a:hover {
+  color: rgb(194, 83, 204);
+}

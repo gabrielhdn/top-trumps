@@ -1,0 +1,66 @@
+.app {
+  background-image: url('./images/AC2Espelho.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content {
+  background-color: rgba(236, 236, 236, 0.8);
+  border-radius: 10px;
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.form-preview {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  gap: 50px;
+}
+
+.intertitle {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.intertitle p {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.intertitle h3 {
+  font-size: 1.8em;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.filter-section {
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.deck-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.deck {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  width: 90%;
+}
