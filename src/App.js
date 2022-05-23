@@ -133,7 +133,7 @@ class App extends React.Component {
   selectCards() {
     const { deckCards, filter } = this.state;
     const { nameFilter, typeFilter, trunfoFilter } = filter;
-    const deckCopy = [...deckCards];
+    const deckCopy = Boolean(deckCards.length) ? [...deckCards] : [];
 
     if (trunfoFilter) {
       return deckCopy.filter((card) => card.cardTrunfo);
@@ -158,6 +158,9 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    if (!localStorage.getItem('cards')) {
+      localStorage.setItem('cards', JSON.stringify([]));
+    }
     const deck = JSON.parse(localStorage.getItem('cards'));
     this.setState({
       deckCards: deck,
