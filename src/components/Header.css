@@ -20,3 +20,15 @@ span strong {
 .title-container img {
   width: 40px;
 }
+
+@media screen and (max-width: 500px) {
+  .title-container span {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title-container span {
+    font-size: 1.5em;
+  }
+}

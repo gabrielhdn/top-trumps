@@ -51,7 +51,7 @@ class Form extends React.Component {
             data-testid="attr1-input"
             id="attr1-input"
             name="cardAttr1"
-            placeholder='maximum: 90'
+            placeholder='max: 90'
             value={ cardAttr1 }
             onChange={ onInputChange }
           />
@@ -64,7 +64,7 @@ class Form extends React.Component {
             data-testid="attr2-input"
             id="attr2-input"
             name="cardAttr2"
-            placeholder='maximum: 90'
+            placeholder='max: 90'
             value={ cardAttr2 }
             onChange={ onInputChange }
           />
@@ -77,7 +77,7 @@ class Form extends React.Component {
             data-testid="attr3-input"
             id="attr3-input"
             name="cardAttr3"
-            placeholder='maximum: 90'
+            placeholder='max: 90'
             value={ cardAttr3 }
             onChange={ onInputChange }
           />

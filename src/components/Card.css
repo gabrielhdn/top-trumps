@@ -2,14 +2,12 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 35%;
+  width: 24em;
 }
 
 .preview-section {
   align-items: center;
   background-color: rgb(243, 243, 243);
-  /* background-image: url('../images/fundoCarta.png'); */
-  /* background-size: 19em 28em; */
   box-shadow: 7px 8px 6px 0px rgba(175, 175, 175, 0.39);
   border-radius: 10px;
   box-sizing: border-box;
@@ -21,16 +19,6 @@
   position: relative;
   width: 19em;
 }
-
-/* .cover {
-  height: 105%;
-  width: 105%;
-  background-image: url('../images/fundoCarta.png');
-  background-size: 100% 100%;
-  position: absolute;
-  top: -9px;
-  left: -6px;
-} */
 
 .img-div {
   width: 100%;
@@ -81,4 +69,21 @@
   color: rgb(185, 183, 31);
   border: 1px solid rgb(185, 183, 31);
   padding: 2.5px;
+}
+
+@media screen and (max-width: 400px) {
+  .preview {
+    width: 22em;
+  }
+
+  .preview-section {
+    width: 17em;
+    height: 26em;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .preview-section {
+    width: 16em;
+  }
 }

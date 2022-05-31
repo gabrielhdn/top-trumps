@@ -1,7 +1,7 @@
 .main-form {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 24em;
   border: 2px solid;
   border-image: linear-gradient(to bottom, rgba(247,247,247,1) 0%, rgba(252,204,77,1) 0%, rgb(124, 172, 255) 100%) 1 1;
   padding-top: 12px;
@@ -96,4 +96,27 @@ input:hover {
 
 input, select {
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .description-input {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .save-button {
+    padding: 4px 6px;
+    width: auto;
+  }
+
+  .description-input {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .description-input {
+    width: 180px;
+  }
 }
