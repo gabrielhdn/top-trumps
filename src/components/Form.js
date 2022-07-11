@@ -29,6 +29,7 @@ class Form extends React.Component {
             name="cardName"
             value={ cardName }
             onChange={ onInputChange }
+            autoComplete="off"
           />
         </label>
 
@@ -94,6 +95,7 @@ class Form extends React.Component {
             value={ cardImage }
             onChange={ onInputChange }
             className="image-input"
+            autoComplete="off"
           />
         </label>
 
