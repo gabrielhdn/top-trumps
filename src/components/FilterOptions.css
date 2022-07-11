@@ -5,12 +5,35 @@
   gap: 10px;
 }
 
-.label-trunfo {
+.trump-div {
+  margin-bottom: 10px;
+}
+
+.trump-label {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 0.9em;
+  gap: 5px;
+  font-size: 0.85em;
+  cursor: pointer;
+  width: 100px;
+}
+
+.top-trump-filter {
+  display: none;
+}
+
+.top-icon {
+  color: rgb(180, 180, 180);
+  cursor: pointer;
+}
+
+.top-trump-filter:checked ~ label .top-icon {
+  color: rgb(95, 218, 223);
+}
+
+.top-trump-filter:hover ~ label .top-icon {
+  color: rgb(95, 218, 223);
 }
 
 @media screen and (max-width: 440px) {

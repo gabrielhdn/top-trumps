@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { IoStarSharp } from 'react-icons/io5';
 import './FilterOptions.css';
 
 class FilterOptions extends React.Component {
@@ -30,17 +31,32 @@ class FilterOptions extends React.Component {
           <option value="rare">rare</option>
           <option value="very rare">very rare</option>
         </select>
-        <label htmlFor="trunfo-checkbox" className="label-trunfo">Top Trump
+        {/* <label htmlFor="trunfo-checkbox" className="label-trunfo">Top Trump
           <input
             type="checkbox"
             id="trunfo-checkbox"
             name="trunfoFilter"
             data-testid="trunfo-filter"
-            className="checkbox-input"
+            className="top-trump-filter"
             checked={ trunfoFilter }
             onChange={ changeFilter }
           />
-        </label>
+        </label> */}
+        <div className="trump-div">
+          <input
+            type="checkbox"
+            id="trunfo-checkbox"
+            name="trunfoFilter"
+            data-testid="trunfo-filter"
+            className="top-trump-filter"
+            checked={ trunfoFilter }
+            onChange={ changeFilter }
+          />
+          <label htmlFor="trunfo-checkbox" className="trump-label">
+            <p>Top Trump</p>
+            <IoStarSharp size={21} className="top-icon" />
+          </label>
+        </div>
       </div>
     );
   }

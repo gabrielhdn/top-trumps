@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { IoStarSharp } from 'react-icons/io5';
 import './Form.css';
 
 class Form extends React.Component {
@@ -112,7 +113,7 @@ class Form extends React.Component {
           </select>
         </label>
 
-        <label htmlFor="trunfo-input" className="form-label">
+        {/* <label htmlFor="trunfo-input" className="form-label">
           {
             hasTrunfo ? <p>you've already got a Top Trump in your deck!</p> : <input
               id="trunfo-input"
@@ -124,7 +125,26 @@ class Form extends React.Component {
               onChange={ onInputChange }
             />
           }
-        </label>
+        </label> */}
+        { hasTrunfo
+        ? <p className="top-p">you've already got a Top Trump in your deck!</p>
+        : (
+          <div>
+            <input 
+              id="trunfo-input"
+              type="checkbox"
+              data-testid="trunfo-input"
+              name="cardTrunfo"
+              className="checkbox-input"
+              checked={ cardTrunfo }
+              onChange={ onInputChange }
+            />
+            <label htmlFor="trunfo-input" className="trump-label add-margin">
+              <p>Top Trump</p>
+              <IoStarSharp size={21} className="top-icon" />
+            </label>
+          </div>
+        )}
 
         <button
           data-testid="save-button"
