@@ -18,6 +18,7 @@
   padding: 3px 3px 8px 3px;
   transition: all 0.3s;
   width: 15em;
+  position: relative;
 }
 
 .mini-card:hover {
@@ -78,10 +79,13 @@
 }
 
 .mini-trunfo-card {
-  font-size: 0.7em;
+  font-size: 0.9em;
   color: rgb(185, 183, 31);
-  border: 1px solid rgb(185, 183, 31);
+  border: 1px dashed rgb(185, 183, 31);
   padding: 2px;
+  position: absolute;
+  top: 11px;
+  left: 11px;
 }
 
 .remove-button {
