@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/top-trumps/static/css/main.bc4d76bd.css",
+    "main.css": "/top-trumps/static/css/main.206d53b9.css",
     "main.js": "/top-trumps/static/js/main.9c271ed6.js",
     "static/media/AC2Espelho.jpg": "/top-trumps/static/media/AC2Espelho.57cd3db4118fd85433a1.jpg",
     "static/media/Logo1.png": "/top-trumps/static/media/Logo1.66b148aead0a207e986d.png",
     "index.html": "/top-trumps/index.html",
-    "main.bc4d76bd.css.map": "/top-trumps/static/css/main.bc4d76bd.css.map",
+    "main.206d53b9.css.map": "/top-trumps/static/css/main.206d53b9.css.map",
     "main.9c271ed6.js.map": "/top-trumps/static/js/main.9c271ed6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc4d76bd.css",
+    "static/css/main.206d53b9.css",
     "static/js/main.9c271ed6.js"
   ]
 }
